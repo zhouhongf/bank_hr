@@ -1,0 +1,25 @@
+[[source]]
+name = "pytuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pymongo = "*"
+aioredis = "*"
+aiohttp = "*"
+schedule = "*"
+uvloop = "*"
+aiofiles = "*"
+requests = "*"
+pyppeteer = "*"
+ujson = "*"
+demjson = "*"
+pyfarmhash = "*"
+lxml = "*"
+beautifulsoup4 = "*"
+cssselect = "*"
+
+[requires]
+python_version = "3.7"
